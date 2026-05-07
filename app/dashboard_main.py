@@ -14,7 +14,7 @@ import os
 
 st.title("📡 Cellular Network Performance Dashboard")
 
-file_path = "C:/Users/SANA/Downloads/telecom-dashboard/data/train_telecom.csv"
+file_path = "data/train_telecom.csv"
 
 
 df = load_data(file_path)

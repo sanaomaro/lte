@@ -1,9 +1,9 @@
 
 import streamlit as st
 
-from app.data_processing import load_data, clean_data
-from app.visualization import summarize_data, generate_charts
-from app.modeling import detect_outliers, regression_analysis, predict_snr
+from data_processing import load_data, clean_data
+from visualization import summarize_data, generate_charts
+from modeling import detect_outliers, regression_analysis, predict_snr
 
 
 
